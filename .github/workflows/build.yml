@@ -53,7 +53,7 @@ jobs:
           VERSION: ${{ steps.determine_version.outputs.version }}
           GIT_COMMIT: ${{ steps.get_git_commit.outputs.short_sha }}
           GOOS: linux
-          GOARCH: amd64
+          GOARCH: arm64
           CGO_ENABLED: 0
         run: |
           ldflags="-w -s -X '${GITHUB_REPO}/internal/runtime.Version=${VERSION}' -X '${GITHUB_REPO}/internal/runtime.GitCommit=${GIT_COMMIT}' -X '${GITHUB_REPO}/internal/runtime.BuildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)'"
@@ -114,4 +114,4 @@ jobs:
           draft: false
           body_path: release_notes.md
           prerelease: false
-          files: ${{ env.APP_NAME }}_linux_amd64
+          files: ${{ env.APP_NAME }}_linux_arm64
