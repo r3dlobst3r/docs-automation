@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/saltyorg/docs-automation/internal/runtime"
+	"github.com/r3dlobst3r/docs-automation/internal/runtime"
 	"github.com/spf13/cobra"
 )
 

@@ -4,9 +4,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/saltyorg/docs-automation/internal/config"
-	"github.com/saltyorg/docs-automation/internal/docs"
-	"github.com/saltyorg/docs-automation/internal/parser"
+	"github.com/r3dlobst3r/docs-automation/internal/config"
+	"github.com/r3dlobst3r/docs-automation/internal/docs"
+	"github.com/r3dlobst3r/docs-automation/internal/parser"
 )
 
 // RoleData contains all data needed to render role documentation.

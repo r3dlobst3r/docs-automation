@@ -4,7 +4,7 @@
 # Variables
 BINARY_NAME := sb-docs
 BUILD_DIR := build
-MODULE := github.com/saltyorg/docs-automation
+MODULE := github.com/r3dlobst3r/docs-automation
 VERSION ?= 0.0.0-dev
 GIT_COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo "dev")
 BUILD_TIME ?= $(shell date -u +"%Y-%m-%dT%H:%M:%SZ")

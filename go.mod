@@ -1,4 +1,4 @@
-module github.com/saltyorg/docs-automation
+module github.com/r3dlobst3r/docs-automation
 
 go 1.25.4
 

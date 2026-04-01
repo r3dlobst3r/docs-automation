@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/saltyorg/docs-automation/internal/cli"
-	"github.com/saltyorg/docs-automation/internal/config"
-	"github.com/saltyorg/docs-automation/internal/docs"
+	"github.com/r3dlobst3r/docs-automation/internal/cli"
+	"github.com/r3dlobst3r/docs-automation/internal/config"
+	"github.com/r3dlobst3r/docs-automation/internal/docs"
 	"github.com/spf13/cobra"
 )
 

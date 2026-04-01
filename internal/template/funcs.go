@@ -4,8 +4,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/saltyorg/docs-automation/internal/parser"
-	"github.com/saltyorg/docs-automation/internal/types"
+	"github.com/r3dlobst3r/docs-automation/internal/parser"
+	"github.com/r3dlobst3r/docs-automation/internal/types"
 )
 
 // FuncMap returns the template function map.

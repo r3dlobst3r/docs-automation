@@ -6,7 +6,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/saltyorg/docs-automation/internal/docs"
+	"github.com/r3dlobst3r/docs-automation/internal/docs"
 )
 
 // TableGenerator generates overview tables from frontmatter.

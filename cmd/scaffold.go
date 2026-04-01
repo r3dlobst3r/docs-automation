@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/saltyorg/docs-automation/internal/config"
+	"github.com/r3dlobst3r/docs-automation/internal/config"
 	"github.com/spf13/cobra"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

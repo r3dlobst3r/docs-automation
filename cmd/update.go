@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/saltyorg/docs-automation/internal/config"
-	"github.com/saltyorg/docs-automation/internal/docs"
-	"github.com/saltyorg/docs-automation/internal/github"
-	"github.com/saltyorg/docs-automation/internal/overview"
-	"github.com/saltyorg/docs-automation/internal/parser"
-	"github.com/saltyorg/docs-automation/internal/template"
+	"github.com/r3dlobst3r/docs-automation/internal/config"
+	"github.com/r3dlobst3r/docs-automation/internal/docs"
+	"github.com/r3dlobst3r/docs-automation/internal/github"
+	"github.com/r3dlobst3r/docs-automation/internal/overview"
+	"github.com/r3dlobst3r/docs-automation/internal/parser"
+	"github.com/r3dlobst3r/docs-automation/internal/template"
 	"github.com/spf13/cobra"
 )
 

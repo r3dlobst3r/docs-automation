@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/saltyorg/docs-automation/internal/config"
-	"github.com/saltyorg/docs-automation/internal/types"
+	"github.com/r3dlobst3r/docs-automation/internal/config"
+	"github.com/r3dlobst3r/docs-automation/internal/types"
 )
 
 var (
